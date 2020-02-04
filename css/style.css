@@ -44,12 +44,22 @@ body {
 }
 
 /**
-    Decimal Clock
+    Clocks
 **/
 #dec-clock {
-    display: flex;
-    justify-content: center;
     opacity: 0.6;
+    transition: opacity 2s ease;
+}
+
+#hex-clock {
+    text-transform: uppercase;
+    opacity: 0.6;
+    transition: opacity 2s ease;
+}
+
+#bin-clock {
+    opacity: 0.6;
+    transition: opacity 2s ease;
 }
 
 .clock {
@@ -58,4 +68,6 @@ body {
     font-family: 'Share Tech Mono', monospace;
     font-size: 68px;
     font-weight: bold;
+    display: flex;
+    justify-content: center;
 }

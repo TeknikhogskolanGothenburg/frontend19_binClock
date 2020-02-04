@@ -1,55 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="main-clock">
-        <div class="group1">
-            <div class="circle disappear h1"></div>
-            <div class="circle disappear h1"></div>
-            <div class="circle h1"></div>
-            <div class="circle h1"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="main-clock">
+            <div class="group1">
+                <div class="circle disappear h1"></div>
+                <div class="circle disappear h1"></div>
+                <div class="circle h1"></div>
+                <div class="circle h1"></div>
+            </div>
+            <div class="group2">
+                <div class="circle h2"></div>
+                <div class="circle h2"></div>
+                <div class="circle h2"></div>
+                <div class="circle h2"></div>
+            </div>
+            <div class="group1">
+                <div class="circle disappear m1"></div>
+                <div class="circle m1"></div>
+                <div class="circle m1"></div>
+                <div class="circle m1"></div>
+            </div>
+            <div class="group2">
+                <div class="circle m2"></div>
+                <div class="circle m2"></div>
+                <div class="circle m2"></div>
+                <div class="circle m2"></div>
+            </div>
+            <div class="group1">
+                <div class="circle disappear s1"></div>
+                <div class="circle s1"></div>
+                <div class="circle s1"></div>
+                <div class="circle s1"></div>
+            </div>
+            <div class="group2">
+                <div class="circle s2"></div>
+                <div class="circle s2"></div>
+                <div class="circle s2"></div>
+                <div class="circle s2"></div>
+            </div>
         </div>
-        <div class="group2">
-            <div class="circle h2"></div>
-            <div class="circle h2"></div>
-            <div class="circle h2"></div>
-            <div class="circle h2"></div>
+        <!-- Decimal Clock   -->
+        <div id="dec-clock">
+            <div class="clock" id="dc"></div>
         </div>
-        <div class="group1">
-            <div class="circle disappear m1"></div>
-            <div class="circle m1"></div>
-            <div class="circle m1"></div>
-            <div class="circle m1"></div>
+        <!-- HexDecimal Clock   -->
+        <div id="hex-clock">
+            <div class="clock" id="hc"></div>
         </div>
-        <div class="group2">
-            <div class="circle m2"></div>
-            <div class="circle m2"></div>
-            <div class="circle m2"></div>
-            <div class="circle m2"></div>
+        <!-- Binary Clock   -->
+        <div id="bin-clock">
+            <div class="clock" id="bc"></div>
         </div>
-        <div class="group1">
-            <div class="circle disappear s1"></div>
-            <div class="circle s1"></div>
-            <div class="circle s1"></div>
-            <div class="circle s1"></div>
-        </div>
-        <div class="group2">
-            <div class="circle s2"></div>
-            <div class="circle s2"></div>
-            <div class="circle s2"></div>
-            <div class="circle s2"></div>
-        </div>
-    </div>
-    <!-- Decimal Clock   -->
-    <div id="dec-clock">
-        <div class="clock" id="dc"></div>
-    </div>
-    <script src="js/source.js"></script>
-</body>
-</html>
+        <script src="js/source.js"></script>
+    </body>
+    </html>
